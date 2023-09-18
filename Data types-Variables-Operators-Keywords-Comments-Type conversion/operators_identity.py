@@ -11,3 +11,4 @@ print(a is c)
 m = "abcd"
 print("abc" is m)
 print("abcd" == m)
+print(m == "abcd")
