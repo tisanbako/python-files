@@ -12,11 +12,9 @@ company_name = []
 for i in emails:  #i could be anything 
     print(i)
     emails2 = i.split("@") #this will apply for all emails as for loop function works on one email at a time 
-    print(emails2)
     domain = emails2[1]
-    print(domain)
     domain_name = domain.split(".")
-    print(domain_name)
+    print(domain_name) #can take off this line.. print is just to see output
     company_name = domain_name[0]
     print(company_name)
 
