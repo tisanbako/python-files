@@ -65,7 +65,7 @@ print(fruits)
 
 
 #remove function: The remove() method takes a single element as an argument and removes it from the list
-marks.remove(63)
+marks.remove(63) #Removes the first item with the specified value
 print(marks)
 
 #clear function- to remove everything on a list

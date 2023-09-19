@@ -7,6 +7,7 @@ student3 = {"name":"Amaka",
             "Vaccinated":True,
             "blood_group":"0+"
             }
+#values of a key in dict can be a list e.g studet2 = {"name":"mike", "cources":["aws", "tf", "azure"]}
 students = [student1, student2, student3] #turn it to list
 print(student1)
 print(students) #it will output all the students infos in a list [{}]
