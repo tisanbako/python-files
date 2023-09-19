@@ -18,7 +18,7 @@ for i in emails:  #i could be anything
     company_name = domain_name[0]
     print(company_name)
 
-#the print lines not necessary
+#the print lines not necessary.
 
 
 
