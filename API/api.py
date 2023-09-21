@@ -1,5 +1,5 @@
 """
-To explain the APIs flow & request module in python.
+To explain the APIs flow & request module in python
 https://reqres.in/
 """
 # install pip requests with command --> pip install requests
