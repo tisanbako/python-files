@@ -19,7 +19,7 @@ div1 = a / b
 # Division(floor) of number
 div2 = a // b
 
-# Modulo of both number
+# Modulo of both number. 
 mod = a % b
 
 # Power
