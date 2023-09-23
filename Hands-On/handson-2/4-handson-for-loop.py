@@ -28,6 +28,8 @@ for i in range(12): #1-11 .. it starts from i and end a number before 12
 for b in range(101): #1-100 .starts from 1 ends a number before 101
     print(b)
 
+    
+
 
     
 
