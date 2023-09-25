@@ -5,7 +5,7 @@ mask = True
 print(covid_test_result_document and mask) #True
 
 card = False
-cash = False 
+cash = True
 
 print (card or cash) #True
 print(card and cash) #False
