@@ -1,9 +1,10 @@
-# in and not in are the membership operators; used to test whether a value or variable is in a sequence.
+# "in" and "not" in are the membership operators; used to test whether a 
+#value or variable is in a sequence.
 
 # Python program to illustrate
 # not 'in' operator
-x = 'J'
-y = '@'
+# x = 'J'
+# y = '@'
 name = 'JJ Tech'
 fruits = ["banana", "apple", "watermelon"]
 
