@@ -33,3 +33,7 @@ print(div1)
 print(div2)
 print(mod)
 print(p)
+
+
+li = 3+2
+print(li)
