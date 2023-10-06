@@ -18,7 +18,7 @@ for i in emails:  #i could be anything
     print(domain_name) #can take off this line.. print is just to see output
     company_name.append(domain_name[0]) #use append function to add company_name to the list
     print(company_name)
-
+   
 #we can print all this in one line instead of the many line 13-19
     # company_name.append(i.split("@")[1].split(",")[0])
     # print(company_name)

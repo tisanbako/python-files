@@ -34,6 +34,7 @@ student2["name"] = "Bako"
 print(student2)
 #we can use this to ass a key value too
 print(student2.get("name"))
+print(student2["name"])    # got this from zero to mastery this will give samw value as what is above .get("name")
 print(student2.keys()) #to print all the keys for student2
 print(student2.values())
 
