@@ -25,18 +25,19 @@ print(student3["blood_group"]) #we just want to know the blood group of a partic
 #you can use get function
 student2.get("blood_group") #to print this function, just wrap it with a print function
 print(student2.get("blood_group"))
+print(student2["blood_group"])   #same as what is up (my own)
 
-#to get student1 name using get function
-print(student1.get("name")) 
+# #to get student1 name using get function
+# print(student1.get("name")) 
 
-#to replace student2 name from james to collins
-student2["name"] = "Bako"
-print(student2)
-#we can use this to ass a key value too
-print(student2.get("name"))
-print(student2["name"])    # got this from zero to mastery this will give samw value as what is above .get("name")
-print(student2.keys()) #to print all the keys for student2
-print(student2.values())
+# #to replace student2 name from james to collins
+# student2["name"] = "Bako"
+# print(student2)
+# #we can use this to ass a key value too
+# print(student2.get("name"))
+# print(student2["name"])    # got this from zero to mastery this will give samw value as what is above .get("name")
+# print(student2.keys()) #to print all the keys for student2
+# print(student2.values())
 
 
 
