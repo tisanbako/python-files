@@ -1,8 +1,8 @@
-fruits = ["kiwi", "apple", "grapes", "mangos", "watermelon", "oraages"]
+fruits = ["kiwi", "apple", "grapes", "mangos", "watermelon", "orages"]
 
 for i in fruits:
     print(i)     #this is to iterate the whole list
-    if i == "grapes": 
+    if i == "grapes":  #while it's iterating the items on the list, when it gets to grapes, it should prent what is below
         print("found the fruit we have been looking for") #in the if block, but it keeps iterating
 
 #it will print         
@@ -14,7 +14,7 @@ for i in fruits:
 # watermelon
 # oraages
 
-#what is we want the look to stop after it grape?
+#what if we want the look to stop after it grape?
 fruits2 = ["kiwi", "apple", "grapes", "mangos", "watermelon", "oraages"]
 
 for a in fruits2:
