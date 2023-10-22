@@ -73,10 +73,10 @@ movies = [
 
 
 for m in movies:
-    # print(m["title"])
+    print(m["title"])
     # print(m)
     # print(type(m))
     # print(m["title"], m["rating"])      #to get the values of titles and ratings. lets put it in a sentence
-    print("the movie title is: ", m["title"], ", rating is: ", m["rating"])
+    # print("the movie title is: ", m["title"], ", rating is: ", m["rating"])
 
 

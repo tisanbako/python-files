@@ -1,0 +1,14 @@
+import boto3
+ssm_client = boto3.client("ssm")
+
+def get_ssm_secrets(parameter_name):  #go to aws and create your parameter
+    response = ssm_client.get_parameter(Name=parameter_name, WithDecryption=True)
+    parameter_value = response["parameter"]["value"]
+    return parameter_value
+
+netflix_movie = get_ssm_secrets(netflix_movie_db)
+print(netflix_movie,)
+netflix_user = get_ssm_secrets(netflix_user_db)
+print("connecting to user db using cred:", netflix_user)
+
+

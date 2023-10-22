@@ -1,7 +1,7 @@
 fruits = ["kiwi", "apple", "grapes", "mangos", "watermelon", "orages"]
 
 for i in fruits:
-    print(i)     #this is to iterate the whole list
+    print(i)     #this is to iterate the whole list (you can put it at the end of the whole block if you want the if statement print for grapes to come first )
     if i == "grapes":  #while it's iterating the items on the list, when it gets to grapes, it should prent what is below
         print("found the fruit we have been looking for") #in the if block, but it keeps iterating
 

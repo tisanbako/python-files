@@ -17,13 +17,14 @@ emails = ["ironman@accenture.com",
 company_name = []
 
 for i in emails:  #i could be anything 
-    print(i)
+    # print(i)
     emails2 = i.split("@") #this will apply for all emails as for loop function works on one email at a time 
     domain = emails2[1]
     domain_name = domain.split(".")
+    # print(domain_name)
     company_name.append(domain_name[0])#use append function to add all company_name to the list of loops
     print(company_name)
-    #to check for the emails with the name accenture and ey we use the if functiom
+    # #to check for the emails with the name accenture and ey we use the if functiom
     if company_name == "accenture" or domain_name[0] == "ey":
         print("sending partner coupon code with 70% to email " , i) # i the loop in i for where we fot the email (for i in emails:))
     else:

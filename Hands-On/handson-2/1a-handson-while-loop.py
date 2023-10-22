@@ -10,10 +10,24 @@ while count <5:
     count = count + 1  #everytime it iterates value of count increaes by 1
 
 
-#if we can only allow more than ten people in a house 
+# #if we can only allow more than ten people in a house 
+
 total_capacity = 10
 current_capacity = 0
 
 while current_capacity < total_capacity:
     print("Enter inside")
     current_capacity += 1
+
+#my-assignment - what if i want to see the difference of number of people in 
+#the place and how many i have to fill 
+
+total_capacity = 10
+present_capacity = 0
+capacity_to_fill = 0
+
+while present_capacity < total_capacity:
+    capacity_to_fill = total_capacity - present_capacity
+    present_capacity += 1
+    print(f"you have {capacity_to_fill} more people to fill")
+   
