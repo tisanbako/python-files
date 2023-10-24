@@ -51,3 +51,14 @@ print(users)
 for i in users["data"]:   #data is the what the list?dict contains
     print(i["email"], "sending email" )
    
+
+#to get indivual users
+def get_users(user_id):
+    print("request: Get user with id: ", user_id)
+    result = requests.get("https://reqres.in/api/users/2")  #the link is for one user.. check the linke
+    print("ReturnCode: ", result)
+    print("ReturnBody: ", result.json())
+    return result
+
+
+get_users(2)    
