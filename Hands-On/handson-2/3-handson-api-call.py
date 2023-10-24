@@ -26,3 +26,4 @@ reply = requests.post("https://reqres.in/api/users", {
     "job": "leader"
 })  #for post(create) we need to pass json key/value data in th bracket
 print(reply)    #reponse 201  HTTP 201 Created success status response code indicates that the request has succeeded and has led to the creation of a resource.
+print(reply.json())
