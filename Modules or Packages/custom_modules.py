@@ -37,8 +37,8 @@ def transfter_amount(account_number, amount):
     else:
         print("Wrong account number!")
 
-# print(boto3)
-list_s3_buckets()
+print(boto3)
+# list_s3_buckets()
 # store_invoice_details(name="Vamsi", price="$150", invoice_id="invoice-12345")
 #transfter_amount(1234567890, 150)
 
