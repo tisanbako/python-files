@@ -15,4 +15,4 @@ instance = ec2.Instance("i-020f877852d48ee44") #which in stance do you want to i
 print(instance.image_id)
 print(instance.state)
 
-instance.stop()
+instance.start()
