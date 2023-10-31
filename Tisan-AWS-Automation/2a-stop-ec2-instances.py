@@ -1,5 +1,5 @@
 
-#want to stop all running instances with the tags 'dev', 'test'
+#want to stop all running instances with the tags 'dev',  and 'test'
 #create three instances with tags dev, prod, test
 
 import boto3
