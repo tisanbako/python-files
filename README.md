@@ -1,4 +1,4 @@
-# Python Introduction Course Repository
+# Python Introduction Course Repository.
 
 Welcome to the "Python Introduction" course repository! This course is designed to help beginners learn Python programming from scratch. It covers a wide range of topics organized into different folders, each focusing on a specific area of Python.
 
