@@ -22,7 +22,7 @@ response = client.describe_instances(  #go to the doc and copy the filter part
         },
     ],
 )
-for i in response["Reservations"][0]["Instances"]:
+for i in response["Reservations"][0]["Instances"]:    #you need to have a running instance if not it will say out of range
     print(i)
     print()
     # now write the module to stop instance.. go check the doc
@@ -49,3 +49,5 @@ for i in response["Reservations"][0]["Instances"]:
 
 # for i in response["Reservations"][0]["Instances"]:
 #     print(i["InstanceId"])
+
+
