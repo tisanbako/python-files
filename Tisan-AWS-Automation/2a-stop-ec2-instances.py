@@ -50,6 +50,5 @@ for i in response["Reservations"][0]["Instances"]:    #you need to have a runnin
 # for i in response["Reservations"][0]["Instances"]:
 #     print(i["InstanceId"])
 
-#
 
 
