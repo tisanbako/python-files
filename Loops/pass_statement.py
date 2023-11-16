@@ -17,7 +17,7 @@ for i in range(n):
     pass
 
 def get_db_secrets():
-    # havent got DB details, aws secret id at the moment
+    # havent got DB details, aws secret id at the moment.
     pass
 
 
