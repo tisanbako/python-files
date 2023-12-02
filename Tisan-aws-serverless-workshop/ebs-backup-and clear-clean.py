@@ -32,7 +32,8 @@ def lambda_handler(event, context):  #copied from lambda
         print("Deleting available volumes", i["VolumeId"])
         response = client.delete_volume(
             VolumeId=i["VolumeId"]
-        #DryRun=True|False not required... you can take this line off
+        #DryRun=True|False not required... you can take this line off.
+    
     )
         
 
