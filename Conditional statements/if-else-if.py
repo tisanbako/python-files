@@ -1,6 +1,6 @@
 # if --> to handle single case
 # if-else --> to handle two cases
-# if-else-if --> to handle more than two cases
+# if-else-if --> to handle more than two cases.
 
 """
 syntax:
