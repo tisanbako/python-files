@@ -6,4 +6,4 @@ client.upload_file('/Users/newuser/Desktop/python-introduction/Tisan-AWS-Automat
 #                                 #total path of the file                     #the s3 bucket                          #name of the file
 
 
-#to get the full path right click the file - copy path
+#to get the full path right click the file - copy path.
