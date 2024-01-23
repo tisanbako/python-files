@@ -6,7 +6,7 @@ import boto3
 
 client = boto3.client('ec2')
 
-response = client.describe_instances(  #go to the doc and copy the filter part
+response = client.describe_instances(  #go to the doc & copy the filter part
     Filters=[
         {
             'Name': 'tag:env',
