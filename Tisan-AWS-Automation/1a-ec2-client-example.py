@@ -1,4 +1,4 @@
-#client uses functions
+#client uses functions.
 
 
 import boto3
